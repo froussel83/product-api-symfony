@@ -1,0 +1,106 @@
+From 02d42f8803b6763eebbbbe0b501d3296b3aab4ed Mon Sep 17 00:00:00 2001
+From: Francois Roussel <francois.roussel@abylsen.com>
+Date: Mon, 29 Sep 2025 17:32:05 +0200
+Subject: [PATCH 1/2] patch
+
+---
+ submission.patch | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 submission.patch
+
+diff --git a/submission.patch b/submission.patch
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.43.0
+
+
+From 38bd991b4a56a74c10919dfa1d1f84d2475f569b Mon Sep 17 00:00:00 2001
+From: Francois Roussel <francois.roussel@abylsen.com>
+Date: Mon, 29 Sep 2025 17:33:05 +0200
+Subject: [PATCH 2/2] empty migrations
+
+---
+ migrations/Version20250929090550.php | 31 ----------------------------
+ migrations/Version20250929090747.php | 31 ----------------------------
+ 2 files changed, 62 deletions(-)
+ delete mode 100644 migrations/Version20250929090550.php
+ delete mode 100644 migrations/Version20250929090747.php
+
+diff --git a/migrations/Version20250929090550.php b/migrations/Version20250929090550.php
+deleted file mode 100644
+index fb6cd7e..0000000
+--- a/migrations/Version20250929090550.php
++++ /dev/null
+@@ -1,31 +0,0 @@
+-<?php
+-
+-declare(strict_types=1);
+-
+-namespace DoctrineMigrations;
+-
+-use Doctrine\DBAL\Schema\Schema;
+-use Doctrine\Migrations\AbstractMigration;
+-
+-/**
+- * Auto-generated Migration: Please modify to your needs!
+- */
+-final class Version20250929090550 extends AbstractMigration
+-{
+-    public function getDescription(): string
+-    {
+-        return '';
+-    }
+-
+-    public function up(Schema $schema): void
+-    {
+-        // this up() migration is auto-generated, please modify it to your needs
+-
+-    }
+-
+-    public function down(Schema $schema): void
+-    {
+-        // this down() migration is auto-generated, please modify it to your needs
+-        $this->addSql('CREATE SCHEMA public');
+-    }
+-}
+diff --git a/migrations/Version20250929090747.php b/migrations/Version20250929090747.php
+deleted file mode 100644
+index 44b9bb3..0000000
+--- a/migrations/Version20250929090747.php
++++ /dev/null
+@@ -1,31 +0,0 @@
+-<?php
+-
+-declare(strict_types=1);
+-
+-namespace DoctrineMigrations;
+-
+-use Doctrine\DBAL\Schema\Schema;
+-use Doctrine\Migrations\AbstractMigration;
+-
+-/**
+- * Auto-generated Migration: Please modify to your needs!
+- */
+-final class Version20250929090747 extends AbstractMigration
+-{
+-    public function getDescription(): string
+-    {
+-        return '';
+-    }
+-
+-    public function up(Schema $schema): void
+-    {
+-        // this up() migration is auto-generated, please modify it to your needs
+-
+-    }
+-
+-    public function down(Schema $schema): void
+-    {
+-        // this down() migration is auto-generated, please modify it to your needs
+-        $this->addSql('CREATE SCHEMA public');
+-    }
+-}
+-- 
+2.43.0
+
