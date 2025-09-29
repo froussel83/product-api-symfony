@@ -1,0 +1,9 @@
+doctrine:
+  dbal:
+    driver: 'pdo_sqlite'
+    url: 'sqlite:///%kernel.project_dir%/var/test.db'
+    charset: UTF8
+  orm:
+    auto_generate_proxy_classes: true
+    enable_lazy_ghost_objects: true
+    auto_mapping: true

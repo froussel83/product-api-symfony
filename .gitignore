@@ -1,0 +1,14 @@
+/vendor/
+/var/*
+!/var/.gitkeep
+/var/test.db
+/.phpunit.result.cache
+/.phpunit.cache/
+/coverage/
+/node_modules/
+/.idea/
+/.vscode/
+/docker/db/data/
+/.env.local
+/.env.*.local
+.php-cs-fixer.cache
