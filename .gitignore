@@ -9,6 +9,4 @@
 /.idea/
 /.vscode/
 /docker/db/data/
-/.env.local
-/.env.*.local
 .php-cs-fixer.cache
